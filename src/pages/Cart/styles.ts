@@ -6,6 +6,21 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 4px;
 
+  .emptyCart button {
+    background: #7159c1;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.2s;
+
+    &:hover {
+      background: ${darken(0.06, '#7159c1')};
+    }
+  }
+
   footer {
     margin-top: 30px;
     display: flex;
@@ -13,19 +28,19 @@ export const Container = styled.div`
     align-items: center;
 
     button {
-      background: #7159c1;
-      color: #fff;
-      border: 0;
-      border-radius: 4px;
-      padding: 12px 20px;
-      font-weight: bold;
-      text-transform: uppercase;
-      transition: background 0.2s;
+    background: #7159c1;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.2s;
 
-      &:hover {
-        background: ${darken(0.06, '#7159c1')};
-      }
+    &:hover {
+      background: ${darken(0.06, '#7159c1')};
     }
+  }
   }
 `;
 
